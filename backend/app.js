@@ -35,7 +35,7 @@ app.use(express.static(path.join(__dirname, 'dist/angular8-meanstack-angular-mat
 app.use('/api', studentRoute)
 
 // PORT
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7000;
 
 app.listen(port, () => {
   console.log('Connected to port ' + port)
